@@ -72,7 +72,7 @@ db-sqlite-mongo-benchmark/
     ├── 04_run_queries.py                       # Performs queries in the two non-indexed databases in SQLite and MongoDB
     ├── 05_create_indexes.py                    # Implements indexing in two databases in SQLite and MongoDB
     └── 06_compare_query_performance.py         # Compares query performance with and without indexing
-|-- utils/
+├── utils/
     ├── data_parser.py                          # Utility functions to read and process files
     ├── mongo_db_creator.py                     # Utility functions to create the MongoDB databases
     ├── performance_analysis.py                 # Utility functions to compare query execution times
@@ -82,4 +82,4 @@ db-sqlite-mongo-benchmark/
 ├── README.md                                   # Project documentation
 ├── constants.py                                # File containing fixed values that remain unchanged throughout execution
 ├── db_sqlite_mongo_benchmark.bat               # Windows batch file to run the db-sqlite-mongo-benchmark tool
-└── requirements.txt                            # Python package dependencies needed to run the project.    ```
+└── requirements.txt                            # Python package dependencies needed to run the project.
