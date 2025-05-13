@@ -48,14 +48,19 @@ python -m scripts.06_compare_query_performance
 ```
 
 
-### 6. Structure
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## Structure
 ```
 db-sqlite-mongo-benchmark/
 ├── data/
-    ├── datasets                                # The folder that stores the three dataset CSV files
-    ├── json_files                              # The folder that stores the JSON files
+    ├── datasets/                               # The folder to store the three dataset CSV files
+    ├── json_files/                             # The folder to store the JSON files
         └── airlines_insert.json                # JSON file to insert data into the airlines collection
-    └── sqlite_database_files
+    └── sqlite_database_files/
         ├── flights_sqlite_database_index.db    # SQLite database file for indexing purposes
         └── flights_sqlite_database.db          # SQLite database file
 ├── results/
