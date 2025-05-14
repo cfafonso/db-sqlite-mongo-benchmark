@@ -9,7 +9,7 @@ This tool provides a comparative analysis of SQLite (relational) and MongoDB (do
 
 ## Installation
 
-### 1. Clone or download the repository (already includes the dataset files)
+### 1. Clone or download the repository
 
 ```git clone db-sqlite-mongo-benchmark```
 
